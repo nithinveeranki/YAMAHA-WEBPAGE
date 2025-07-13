@@ -1,4 +1,4 @@
-# 🏍️ Yamaha 3D Showcase Website
+# 🏍️ Yamaha 3D Website
 
 A 3D animated Yamaha bike showcase website designed using **HTML** and **CSS**. It features a rotating carousel of Yamaha bikes, smooth aesthetic transitions, stylish typography, and a racing-inspired background.
 

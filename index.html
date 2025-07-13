@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D2D2D2;
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+        
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/bg.png); /* use your desired image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -8vb;
+    z-index: -1;
+    pointer-events: none;
+}
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ruler-overlay"></div>
+
+
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="images/bike1.png" alt=""></div>
+            <div class="item" style="--position: 2"><img src="images/bike2.png" alt=""></div>
+            <div class="item" style="--position: 3"><img src="images/bike3.png" alt=""></div>
+            <div class="item" style="--position: 4"><img src="images/bike4.png" alt=""></div>
+            <div class="item" style="--position: 5"><img src="images/bike5.png" alt=""></div>
+            <div class="item" style="--position: 6"><img src="images/bike6.png " alt=""></div>
+            <div class="item" style="--position: 7"><img src="images/bike7.png" alt=""></div>
+            <div class="item" style="--position: 8"><img src="images/bike8.png" alt=""></div>
+            <div class="item" style="--position: 9"><img src="images/bike9.png" alt=""></div>
+            <div class="item" style="--position: 10"><img src="images/bike10.png" alt=""></div>
+        </div>
+        <div class="content">
+            <h1 data-content="YAMAHA">
+                YAMAHA
+            </h1>
+            <div class="author">
+                <h2>NITHIN VEERANKI</h2>
+                <p><b>Frontend Developer</b></p>
+                <p>
+                    HTML & CSS
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
+    </div>    
+</body>
+</html>

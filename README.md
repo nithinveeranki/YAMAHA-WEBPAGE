@@ -24,7 +24,7 @@ A 3D animated Yamaha bike showcase website designed using **HTML** and **CSS**. 
 
 ## 🚀 Live Demo
 
-👉 **[Live Site on GitHub Pages](https://github.com/nithinveeranki/YAMAHA-WEBPAGE)**
+👉 **[Live Site on GitHub Pages](https://yamaha-webpage.vercel.app/)**
 
 ---
 
